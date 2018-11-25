@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Appware2</string>
+    <string name="nav_header_title">Main User</string>
+    <string name="nav_header_subtitle">test@test.com</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+</resources>
