@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Enter Price Range"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:hint="Price"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:text="Search" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                >
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView001"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/apartment1" />
+
+                <TextView
+                    android:id="@+id/textView001"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con1"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment2" />
+
+                <TextView
+                    android:id="@+id/textView002"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="16dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con2"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment3" />
+
+                <TextView
+                    android:id="@+id/textView003"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con3"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment4" />
+
+                <TextView
+                    android:id="@+id/textView004"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con4"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment5" />
+
+                <TextView
+                    android:id="@+id/textView005"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con5"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment6" />
+
+                <TextView
+                    android:id="@+id/textView006"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con6"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment7" />
+
+                <TextView
+                    android:id="@+id/textView007"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/con8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/con7"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@mipmap/apartment8" />
+
+                <TextView
+                    android:id="@+id/textView008"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_text1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="16dp" />
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

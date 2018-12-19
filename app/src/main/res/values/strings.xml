@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Appware2</string>
+    <string name="nav_header_title">Main User</string>
+    <string name="nav_header_subtitle">test@test.com</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="description_text1">Safe, Secure environment. Studio Apartment. $2,500TT/mo. </string>
+    <string name="t1">Safe, Secure environment. Studio Apartment. $2,500TT/mo. </string>
+    <string name="t2">2 bedroom apartment ,completely furnished and air conditioned, Shared facilities, $3,000TT/mo.</string>
+    <string name="t3">Studio apartment, 2 minutes walking distance, excellent security and surveillance, $2,700/mo.</string>
+    <string name="t4">Shared facilities, fully furnished, hot water, 10 minutes walking distance, $1,400TT/mo.</string>
+    <string name="t5">4 bedroom house, Fully furnished, 2 bathrooms 1 kitchen, air conditioned, secure, $7,500TT/mo.</string>
+    <string name="t6">Studio apartment, shared kitchen, fully furnished and air conditioned, cleaning services, $2,500TT/mo.</string>
+    <string name="t7">2 bedrooms apartment ,completely furnished, Shared kitchen, bathroom and laundry area, $2,100TT/mo.</string>
+    <string name="t8">Studio apartment, Fully furnished and Air Conditioned, Good Wifi, Hot/Cold water, security 24/7, $3,200TT/mo.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="login">
+        <item>Student</item>
+        <item>Landlord</item>
+    </string-array>
+
+</resources>
