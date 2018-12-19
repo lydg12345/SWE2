@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">464449731987-p2d58bbtiku55s3rtjucgeeciu90ktku.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://appware2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">464449731987</string>
+    <string name="google_api_key" translatable="false">AIzaSyBsuiuMVVIhhwBYR-63ce-kGpIXsvia4eM</string>
+    <string name="google_app_id" translatable="false">1:464449731987:android:692eef71b4ceb106</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsuiuMVVIhhwBYR-63ce-kGpIXsvia4eM</string>
+    <string name="google_storage_bucket" translatable="false">appware2.appspot.com</string>
+    <string name="project_id" translatable="false">appware2</string>
+</resources>
