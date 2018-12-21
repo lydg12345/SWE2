@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464449731987",
+    "firebase_url": "https://appware2.firebaseio.com",
+    "project_id": "appware2",
+    "storage_bucket": "appware2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464449731987:android:692eef71b4ceb106",
+        "android_client_info": {
+          "package_name": "com.example.liamy_000.appware2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464449731987-ra60n0duosig257s36l8fr2k77oa8drb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liamy_000.appware2",
+            "certificate_hash": "1910c4e8ded110ed918f798303ed1546704587bb"
+          }
+        },
+        {
+          "client_id": "464449731987-p2d58bbtiku55s3rtjucgeeciu90ktku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsuiuMVVIhhwBYR-63ce-kGpIXsvia4eM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464449731987-p2d58bbtiku55s3rtjucgeeciu90ktku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

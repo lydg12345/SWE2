@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Quick Rental</string>
+    <string name="nav_header_title">Main User</string>
+    <string name="nav_header_subtitle">test@test.com</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="description_text1">Safe, Secure environment. Studio Apartment. $2,500TT/mo. </string>
+    <string name="t1">Safe, Secure environment. Studio Apartment. $2,500TT/mo. </string>
+    <string name="t2">2 bedroom apartment ,completely furnished and air conditioned, Shared facilities, $3,000TT/mo.</string>
+    <string name="t3">Studio apartment, 2 minutes walking distance, excellent security and surveillance, $2,700/mo.</string>
+    <string name="t4">Shared facilities, fully furnished, hot water, 10 minutes walking distance, $1,400TT/mo.</string>
+    <string name="t5">4 bedroom house, Fully furnished, 2 bathrooms 1 kitchen, air conditioned, secure, $7,500TT/mo.</string>
+    <string name="t6">Studio apartment, shared kitchen, fully furnished and air conditioned, cleaning services, $2,500TT/mo.</string>
+    <string name="t7">2 bedrooms apartment ,completely furnished, Shared kitchen, bathroom and laundry area, $2,100TT/mo.</string>
+    <string name="t8">Studio apartment, Fully furnished and Air Conditioned, Good Wifi, Hot/Cold water, security 24/7, $3,200TT/mo.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="less3000">Less than $3000</string>
+
+    <string-array name="login">
+        <item>Student</item>
+        <item>Landlord</item>
+    </string-array>
+
+    <string-array name="apartment1">
+        <item>Description:\n
+            Newly renovated studio apartment in serene, safe and secure environment in the St. Augustine area. Complete with hardwood floor stand up shower, dishwasher, stove and microwave. The apartment is available January 1, 2019. Please call if you would like to come see and/or if you have any questions.
+            \n\n
+            Landlord Name: John Smith\n
+            Type: Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $2,500\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities:AC, Parking, WiFi, Hot/Cold Water</item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment2">
+        <item>Description:\n
+            Sleek Two-bedroom apartment fully furnished with shared facilities. Comes with shower, air conditioning, fridge, stove and microwave.
+            \n\n
+            Landlord Name: John Doe\n
+            Type: Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $3,000\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities: AC,  Parking, WiFi, Hot/Cold Water </item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment3">
+        <item>Description:\n
+            Modern studio apartment, 2 minutes walking distance, excellent security and surveillance, fully furnished. Quiet surroundings close to UWI.
+            \n\n
+            Landlord Name: John Conner\n
+            Type: Studio Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $2,700\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities: AC, WiFi, Hot/Cold Water </item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment4">
+        <item>Description:\n
+            1 bedroom apartment with shared facilities, fully furnished, hot water
+            \n\n
+            Landlord Name: John Reyes\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $1,400\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities: WiFi, Hot/Cold Water</item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment5">
+        <item>Description:\n
+            4 bedroom house, Fully furnished, 2 bathrooms 1 kitchen, air conditioned, secure, $7,500TT/mo.
+            \n\n
+            Landlord: John Reaper\n
+            Type: 4BR House\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $7,500TT/mo\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities: AC, Parking, WiFi, Hot/Cold Water, Washer/Dryer</item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment6">
+        <item>Description:\n
+            Studio apartment, new refurbished with shared kitchen, fully furnished and air conditioned, cleaning services
+            \n\n
+            Landlord: John Peterson\n
+            Type: Studio Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $2,500TT/mo\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities:AC, Parking, WiFi </item>
+        <item>Contact Number:</item>
+    </string-array>
+
+    <string-array name="apartment7">
+        <item>Description:\n
+            2 bedrooms apartment, completely furnished, Shared kitchen, bathroom and laundry area, $2,100TT
+            \n\n
+            Landlord: John Serrant\n
+            Type: 2BR Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $2,100TT\n
+            Date available: 1/9\n
+            Pets: No\n
+            Amenities: AC, Parking, WiFi, Hot/Cold Water</item>
+        <item>6622001</item>
+    </string-array>
+
+    <string-array name="apartment8">
+        <item>Description:\n
+            Studio apartment, fully furnished and air conditioned, Good Wifi, Hot/Cold water, security 24/7, $3,200TT. The apartment is available January 1, 2019. Please call if you would like to come see and/or if you have any questions.
+            \n\n
+            Landlord: John Farrell\n
+            Type: Studio Apartment\n
+            Contract: 1 year\n
+            Furnished: Yes\n
+            Deposit and fees: $3,200\n
+            Date available: 1/1\n
+            Pets: No\n
+            Amenities: AC, Parking, WiFi, Hot/Cold Water </item>
+        <item>6622001</item>
+    </string-array>
+
+</resources>
